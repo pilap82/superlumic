@@ -115,7 +115,7 @@ else
         setStatusMessage "Getting your config from your fork"
         git clone -q $1 /usr/local/superlumic/config
     else
-        setStatusMessage "Getting the default config"
+        setStatusMessage "Getting the default config --- cloning from https://github.com/superlumic/superlumic-config.git"
         git clone -q https://github.com/superlumic/superlumic-config.git /usr/local/superlumic/config
     fi
 fi
