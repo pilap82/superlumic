@@ -18,7 +18,7 @@ printf "${BGreen}         \/      |__|        \/ http://superlumic.com \/       
 setStatusMessage "Checking if we need to ask for a sudo password"
 
 sudo -v
-export ANSIBLE_ASK_SUDO_PASS=True
+# export ANSIBLE_ASK_SUDO_PASS=True
 
 repo=$1
 username=$USER
